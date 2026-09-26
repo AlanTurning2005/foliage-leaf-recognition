@@ -57,7 +57,7 @@ Tất cả mô hình được đánh giá trên **1.200 ảnh kiểm thử độ
 
 ## Visualization
 
-### Confusion Matrix & Per-class Performance
+### Performance Comparison Table
 
 ![Model Comparison](reports/figures/comparison.png)
 
