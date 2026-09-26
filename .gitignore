@@ -1,0 +1,24 @@
+# Byte-compiled & môi trường ảo
+__pycache__/
+*.py[cod]
+venv/
+env/
+.ipynb_checkpoints/
+
+# Dữ liệu ảnh thô & File nén nội bộ
+data/raw/
+*.tif
+*.tiff
+*.zip
+*.rar
+*.7z
+*.tar.gz
+
+# Checkpoints mô hình 
+checkpoints/*.pth
+*.pth
+
+# File rác hệ điều hành
+.DS_Store
+desktop.ini
+Thumbs.db
