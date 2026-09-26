@@ -1,4 +1,4 @@
-# 🍃 Foliage Leaf Species Recognition
+# Foliage Leaf Species Recognition
 ### Handcrafted Features (Baseline PNN + PCA) vs. Deep Learning (ResNet-18)
 
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python)
@@ -47,7 +47,7 @@ Tất cả mô hình được đánh giá trên **1.200 ảnh kiểm thử độ
 | **Baseline** | **PNN + PCA** | PCA (n=50), σ=0.1 | 94.52 | 94.58 | 0.9444 | 104.10 | **0.12** |
 | Machine Learning | **KNN** | PCA (n=57), k=7, distance weights | 94.48 | 93.75 | 0.9363 | 7.58 | 1.93 |
 
-### 💡 Key Insights
+### Key Insights
 
 - **ResNet-18** đạt độ chính xác **99.58%**, vượt trội nhờ tự động học đặc trưng không gian sâu thay vì 57 đặc trưng thủ công cố định.
 - **SVM (RBF)** cải thiện **+2.50%** so với baseline PNN, cho thấy phân tách siêu phẳng phi tuyến hiệu quả hơn ước lượng mật độ xác suất trong không gian 60 lớp.
@@ -61,11 +61,10 @@ Tất cả mô hình được đánh giá trên **1.200 ảnh kiểm thử độ
 
 ![Model Comparison](reports/figures/comparison.png)
 
-> Các biểu đồ chi tiết (confusion matrix, t-SNE, precision/recall từng loài) được lưu tại `reports/figures/`.
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 ```bash
 # 1. Clone repository
